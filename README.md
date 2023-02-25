@@ -14,17 +14,7 @@ Here's a high-level overview of how you could use Python to implement image segm
 5. Postprocess the segmentation results to remove any noise or artifacts and to refine the boundaries between regions.
 6. Visualize the segmented image to evaluate the quality of the segmentation.
 
-In this implementation, we define a MRIImage class that encapsulates the image file and all the segmentation methods. The `__init__` method initializes the object with the file path and loads the image data from the file. The threshold method applies the `Otsu's` threshold algorithm to convert the image to binary format. The enfcm_segmentation, `fcm_s1_segmentation`, and `fcm_s2_segmentation` methods implement the three segmentation algorithms as described earlier. The display method displays the segmented image using the `skimage.io.imshow` function.
+# Sample images used
+Here are the link where I find sample MRI images for cancer detection:
 
-To use this class, we create an instance of `MRIImage` with the path to the input MRI image file, then call the threshold and `enfcm_segmentation` methods to threshold and segment the image using the `ENFCM` algorithm. Finally, we call the display method to show the segmented image.
-
-# Sample images
-Here are some links where you can find sample MRI images for cancer detection:
-
-1. The Cancer Imaging Archive (TCIA): https://www.cancerimagingarchive.net/
-2. ImageNet: http://www.image-net.org/
-3. LIDC-IDRI: https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI
-4. The RIDER Lung CT Dataset: https://wiki.cancerimagingarchive.net/display/Public/RIDER+Lung+CT
-5. The Prostate MRI Image Database: https://wiki.cancerimagingarchive.net/display/Public/Prostate+MRI+Image+Database
-
-Please note that some of these databases require registration and approval for data access, and some may have specific usage policies that need to be followed.
+- Brain MRI Images for Brain Tumor Detection: https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
