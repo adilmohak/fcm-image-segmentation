@@ -1,6 +1,6 @@
-## FCM_S1 Segmentation for Cancer Detection from MRI Imaging
+# FCM_S1 Segmentation for Cancer Detection from MRI Imaging
 
-Fuzzy c-means (FCM) clustering is a popular method for image segmentation, especially in medical imaging. FCM_S1 is a variation of the FCM algorithm that uses a different objective function and clustering approach. FCM_S1 has been shown to improve segmentation results in some cases, particularly for images with intensity inhomogeneity. Here are the general steps to perform FCM_S1 segmentation for cancer detection from MRI imaging in Python:
+`FCM_S1` is a variation of the FCM algorithm that uses a different objective function and clustering approach. `FCM_S1` has been shown to improve segmentation results in some cases, particularly for images with **intensity inhomogeneity**. Here are the general steps to perform `FCM_S1` segmentation for cancer detection from MRI imaging in Python:
 
 1. Preprocess the input image by normalizing it to the range [0, 1] and flattening it to a 1D array for clustering.
 2. Apply the FCM_S1 algorithm using the `fuzz.cluster.cmeans()` function from the `scikit-fuzzy` library.
