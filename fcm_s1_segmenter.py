@@ -73,5 +73,5 @@ if __name__ == "__main__":
     axs[0].imshow(original, cmap='gray')
     axs[0].set_title('Original Image')
     axs[1].imshow(segmentation)
-    axs[1].set_title('Segmented Image')
+    axs[1].set_title('Segmented Image Using FCM_S1 Algorithm')
     plt.show()
