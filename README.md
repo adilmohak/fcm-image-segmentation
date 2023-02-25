@@ -14,7 +14,17 @@ Here's a high-level overview of how you could use Python to implement image segm
 5. Postprocess the segmentation results to remove any noise or artifacts and to refine the boundaries between regions.
 6. Visualize the segmented image to evaluate the quality of the segmentation.
 
-# Sample images used
+## Sample images used
 Here is the link where I used for sample MRI images:
 
 - Brain MRI Images for Brain Tumor Detection: https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
+
+## Installation
+
+- Clone the repo: `git clone https://github.com/adilmohak/fcm-image-segmentation.git` or download the zip file manually, and run the following commands inside the project root directory
+- Create python virtual environment and activate it: `python -m venv venv`
+- Install requirements: `pip install -r requirements.txt`
+- Now you can run each script one-by-one: For example, `python fcm_s1_segmenter.py`
+
+## If you find it something usefull, support me with your star :)
+# Thanks!
