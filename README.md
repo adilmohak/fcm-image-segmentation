@@ -26,5 +26,6 @@ Here is the link where I used for sample MRI images:
 - Install requirements: `pip install -r requirements.txt`
 - Now you can run each script one-by-one: For example, `python fcm_s1_segmenter.py`
 
-## If you find it something usefull, support me with your star :)
+## I hope you learn something from this project, and if you do, give that star a click :)
+
 # Thanks!
